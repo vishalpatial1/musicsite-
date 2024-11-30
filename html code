@@ -1,0 +1,77 @@
+html code ----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Academy</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🎵 MMA - Music Academy</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="banner">
+        <h1>Welcome to <span>Music Academy</span></h1>
+        <p>Learn music, unleash your potential, and find your rhythm!</p>
+        <button class="cta">Explore Courses</button>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Music Academy, we inspire and guide music enthusiasts to discover their talents. Our professional instructors provide personalized training in instruments and vocals, catering to all levels of learners.</p>
+        <img src="assets/images/about.jpg" alt="About Music Academy">
+    </section>
+
+    <section id="courses" class="courses-section">
+        <h2>Our Popular Courses</h2>
+        <div class="courses-container">
+            <div class="course-card">
+                <h3>🎸 Guitar Basics</h3>
+                <p>Learn the fundamentals of guitar playing, from chords to melodies.</p>
+            </div>
+            <div class="course-card">
+                <h3>🎹 Piano Mastery</h3>
+                <p>Master the piano with our step-by-step guidance.</p>
+            </div>
+            <div class="course-card">
+                <h3>🎤 Vocal Training</h3>
+                <p>Enhance your vocal range and control with expert tips.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions? Feel free to reach out to us!</p>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Music Academy. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
